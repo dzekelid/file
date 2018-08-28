@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Atlassian
 x-complete: 1
@@ -77,4 +76,3 @@ paths:
           description: OK
       tags:
       - File
----

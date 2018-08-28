@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: GIG & CROWD
 x-complete: 1
@@ -93,4 +92,3 @@ paths:
       - Requestid
       - Files
       - Fileid
----

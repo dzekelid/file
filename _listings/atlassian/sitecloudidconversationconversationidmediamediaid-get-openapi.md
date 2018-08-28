@@ -57,6 +57,26 @@ paths:
           description: OK
       tags:
       - File
+    delete:
+      summary: Delete a file
+      description: Authentication required, with scope participate:conversation
+      operationId: ConversationMediaDeleteHandler
+      x-api-path-slug: sitecloudidconversationconversationidmediamediaid-delete
+      parameters:
+      - in: path
+        name: cloudId
+        description: Cloud ID
+      - in: path
+        name: conversationId
+        description: Conversation ID
+      - in: path
+        name: mediaId
+        description: Media ID
+      responses:
+        200:
+          description: OK
+      tags:
+      - File
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

@@ -9,11 +9,22 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "0"
 tags: File
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/file/master/_listings/google-doubleclick/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Google Doubleclick Merged API - Get Files
+  x-api-slug: userprofilesprofileidfiles-get
+  description: Lists files for a user profile.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-double-click.png
+  humanURL: https://www.doubleclickbygoogle.com/
+  baseURL: https:///
+  tags: Advertising, Google APIs, Stack Network, API Service Provider, API Provider,
+    Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/file/master/_listings/google-doubleclick/userprofilesprofileidfiles-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://google.dataflow.api.gallery.streamdata.io

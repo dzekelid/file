@@ -12,8 +12,8 @@ image: ""
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: File
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/file/master/_listings/open-science-framework/apis.md
 specificationVersion: "0.14"
 apis:
@@ -69,6 +69,56 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/file/master/_listings/open-science-framework/filesfile-id-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/file/master/_listings/open-science-framework/filesfile-id-get-openapi.md
+- name: Open Science Framework - Update a file
+  x-api-slug: filesfile-id-patch
+  description: |-
+    Updates the specified file by setting the values of the parameters passed. Any parameters not provided will be left unchanged.
+    #### Returns
+    Returns JSON with a `data` key containing the new representation of the updated file, if the request is successful.
+
+    If the request is unsuccessful, JSON with an `errors` key containing information about the failure will be returned. Refer to the [list of error codes](#Introduction_error_codes) to understand why this request may have failed.
+  image: ""
+  humanURL: https://cos.io
+  baseURL: https://test-api.osf.io//v2
+  tags: Research, Science, API Provider, Profiles, General Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/file/master/_listings/open-science-framework/filesfile-id-patch-openapi.md
+- name: Open Science Framework - List all file versions
+  x-api-slug: filesfile-idversions-get
+  description: |-
+    A paginated list of all file versions.
+    #### Returns
+    Returns a JSON object containing `data` and `links` keys.
+
+    The `data` key contains an array of 10 file versions. Each resource in the array is a separate file version object.
+
+    The `links` key contains a dictionary of links that can be used for [pagination](#Introduction_pagination).
+
+    If the request is unsuccessful, an `errors` key containing information about the failure will be returned. Refer to the [list of error codes](#Introduction_error_codes) to understand why this request may have failed.
+  image: ""
+  humanURL: https://cos.io
+  baseURL: https://test-api.osf.io//v2
+  tags: Research, Science, API Provider, Profiles, General Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/file/master/_listings/open-science-framework/filesfile-idversions-get-openapi.md
+- name: Open Science Framework - Retrieve a file version
+  x-api-slug: filesfile-idversionsversion-id-get
+  description: |-
+    Retrieves the details of a file version
+    ####Returns
+
+    Returns a JSON object with a `data` key containing the representation of the requested file, if the request was successful.
+
+    If the request is unsuccessful, an `errors` key containing information about the failure will be returned. Refer to the [list of error codes](#Introduction_error_codes) to understand why this request may have failed.
+  image: ""
+  humanURL: https://cos.io
+  baseURL: https://test-api.osf.io//v2
+  tags: Research, Science, API Provider, Profiles, General Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/file/master/_listings/open-science-framework/filesfile-idversionsversion-id-get-openapi.md
 - name: Open Science Framework - Actions
   x-api-slug: actions-get
   description: |-

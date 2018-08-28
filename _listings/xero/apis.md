@@ -7,11 +7,55 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/279-xero.j
 x-kinRank: "8"
 x-alexaRank: "2158"
 tags: File
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/file/master/_listings/xero/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Accounting - Get Accounts Attachments Filename
+  x-api-slug: accountsaccountidattachmentsfilename-get
+  description: Get accounts account attachments filename.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/279-xero.jpg
+  humanURL: http://www.xero.com/
+  baseURL: https://api.xero.com//api.xro/2.0
+  tags: Finance, Accounting, Finance, Accounting, Stack Network, SaaS, Technology,
+    Invoices, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/file/master/_listings/xero/accountsaccountidattachmentsfilename-get-openapi.md
+- name: Accounting - Get Accounts Attachments Filename
+  x-api-slug: accountsaccountidattachmentsfilename-get
+  description: Get accounts account attachments filename.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/279-xero.jpg
+  humanURL: http://www.xero.com/
+  baseURL: https://api.xero.com//api.xro/2.0
+  tags: Finance, Accounting, Finance, Accounting, Stack Network, SaaS, Technology,
+    Invoices, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/file/master/_listings/xero/accountsaccountidattachmentsfilename-get-openapi.md
+- name: Accounting - Post Accounts Attachments Filename
+  x-api-slug: accountsaccountidattachmentsfilename-post
+  description: Post accounts account attachments filename.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/279-xero.jpg
+  humanURL: http://www.xero.com/
+  baseURL: https://api.xero.com//api.xro/2.0
+  tags: Finance, Accounting, Finance, Accounting, Stack Network, SaaS, Technology,
+    Invoices, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/file/master/_listings/xero/accountsaccountidattachmentsfilename-post-openapi.md
+- name: Accounting - Post Accounts Attachments Filename
+  x-api-slug: accountsaccountidattachmentsfilename-post
+  description: Post accounts account attachments filename.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/279-xero.jpg
+  humanURL: http://www.xero.com/
+  baseURL: https://api.xero.com//api.xro/2.0
+  tags: Finance, Accounting, Finance, Accounting, Stack Network, SaaS, Technology,
+    Invoices, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/file/master/_listings/xero/accountsaccountidattachmentsfilename-post-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://wordnik.api.gallery.streamdata.io
